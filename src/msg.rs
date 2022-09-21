@@ -50,7 +50,7 @@ pub enum ONFTExecuteMsg {
         recipient: String, //   string recipient         = 3;
     },
 
-    MsgMintONFT {
+    MintONFT {
         //   option (gogoproto.equal) = true;
 
         //   string   id              = 1;
@@ -92,7 +92,7 @@ pub enum ONFTExecuteMsg {
         recipient: String,
     },
 
-    MsgBurnONFT {
+    BurnONFT {
         //   option (gogoproto.equal) = true;
 
         //   string id                = 1;
